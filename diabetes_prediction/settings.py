@@ -31,7 +31,7 @@ DEBUG = os.environ.get("DEBUG",True)
 # ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
 
 
-ALLOWED_HOSTS=[" .onrender.com "]
+ALLOWED_HOSTS=["django-example-appgu.onrender.com"]
 
 
 # Application definition
