@@ -14,8 +14,8 @@ def predict(request):
 
 
 def result(request):
-    data=pd.read_csv("E:/DataScience/Capstone_project/diabetes.csv")
-
+   # data=pd.read_csv("E:/DataScience/Capstone_project/diabetes.csv")
+    data=pd.read_csv("diabetes.csv")
     X=data.drop("Outcome",axis=1)
     Y=data['Outcome']
 
